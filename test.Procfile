@@ -1,2 +1,2 @@
-web: test-07082021
+web: gunicorn
 app:app
