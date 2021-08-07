@@ -10,6 +10,8 @@ import pickle
 import warnings
 warnings.filterwarnings("ignore")
 import xgboost
+import xgboost.compat
+from xgboost.compat import XGBoostLabelEncoder
 
 app = Flask(__name__)  # intitialize the flaks app  # common 
 
